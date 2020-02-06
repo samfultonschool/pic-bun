@@ -1,0 +1,42 @@
+html, body{
+    background-color: var(--dark-blue);
+    height: 100%;
+    width: 100%;;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-content{
+    width: 100%;
+    margin: auto;
+}
+
+
+.post-container{
+    background-color: transparent;
+    margin: auto;
+    width: 100%;
+}
+
+.post-head{
+    background-color: var(--medium-blue);
+    height: 90px;
+    width: 540px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.post-foot{
+    background-color: var(--medium-blue);
+    height: 90px;
+    width: 540px;
+    border-radius: 5px;
+}
+
+.post-media-container{
+    height: 400px;
+}
+
+.post-media{
+    height: 100%;
+}

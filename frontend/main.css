@@ -1,0 +1,29 @@
+:root{
+    --dark-blue: #29343a;
+    --medium-blue: #3a4951;
+    --bright-blue: #007bff;
+    --white: #fff;
+}
+
+
+.top-bar{
+    background-color: var(--medium-blue);
+    height: 55px;
+    width: 100%;
+}
+
+.title{
+    color: var(--white);
+    font-family: 'Comfortaa', cursive;
+    font-size:  28px;
+    font-weight: 900;
+    margin: 0 0 0 20px;
+}
+
+.white-text{
+    color: var(--white);
+}
+
+.blue-text{
+    color: var(--bright-blue);
+}
