@@ -22,10 +22,12 @@ const createSingleMediaPostElement = async (src)=>{
     postContainer.append(postMediaContainer);
     postMediaContainer.append(postSingleMedia);
     postContainer.append(postMessageBar);
+    postContainer.style.width = postSingleMedia.width + 180  + 'px';
     mainContent.append(postContainer);
 
-    await sleep(5);
+    await sleep(10);
     postContainer.style.width = postSingleMedia.width + 180  + 'px';
+
     // postFoot.style.width = postMedia.width + 'px';
     // postHead.style.width = postMedia.width + 'px';
     // postSideBar.style.height = postMedia.height + 'px';
