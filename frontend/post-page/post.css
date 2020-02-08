@@ -21,7 +21,7 @@ html, body {
     height: 700px;
     display: grid;
     grid-template-columns: 1.6fr 0.4fr;
-    grid-template-rows: 0.3fr 1.7fr;
+    grid-template-rows: 83px 1.7fr;
     grid-template-areas: "post-title-bar post-interaction-bar" "post-media-container post-message-bar";
     margin: 0 auto;
 }
