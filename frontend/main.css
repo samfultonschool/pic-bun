@@ -1,29 +1,56 @@
-:root{
+:root {
+    --dark-blue: #171f24;
+    --medium-blue: #2e393f;
+    /*     
     --dark-blue: #29343a;
-    --medium-blue: #3a4951;
+    --medium-blue: #3a4951; */
     --bright-blue: #007bff;
     --white: #fff;
 }
 
-
-.top-bar{
+.top-bar {
     background-color: var(--medium-blue);
-    height: 55px;
+    height: 50px;
     width: 100%;
+    overflow: auto;
 }
 
-.title{
+.title {
     color: var(--white);
     font-family: 'Comfortaa', cursive;
-    font-size:  28px;
+    font-size: 28px;
     font-weight: 900;
-    margin: 0 0 0 20px;
+    margin: 6px 0 0 20px;
+    float: left;
+    user-select: none;
 }
 
-.white-text{
+.create-post-button {
+    background-color: var(--bright-blue);
+    color: var(--white);
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    width: 125px;
+    height: 32.5px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 6px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.white-text {
     color: var(--white);
 }
 
-.blue-text{
+.blue-text {
     color: var(--bright-blue);
+}
+
+.upload-icon{
+    font-size: 15px;
+    margin-right: 2.5px;
 }
