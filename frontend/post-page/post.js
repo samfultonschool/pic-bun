@@ -25,7 +25,7 @@ const createSingleMediaPostElement = async (src)=>{
     mainContent.append(postContainer);
 
     await sleep(5);
-
+    postContainer.style.width = postSingleMedia.width + 180  + 'px';
     // postFoot.style.width = postMedia.width + 'px';
     // postHead.style.width = postMedia.width + 'px';
     // postSideBar.style.height = postMedia.height + 'px';
@@ -33,7 +33,8 @@ const createSingleMediaPostElement = async (src)=>{
 }
 
 
-createSingleMediaPostElement('https://i.imgur.com/uqivNJD.jpg');
+// createSingleMediaPostElement('https://i.imgur.com/uqivNJD.jpg');
 
+createSingleMediaPostElement('https://i.imgur.com/OOEG3w9.jpg');
 
 
