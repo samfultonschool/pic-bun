@@ -79,7 +79,7 @@ html, body {
     font-weight: 500;
     overflow-wrap: break-word;
     text-align: left;
-    padding-left: 90px;
+    padding-left: 100px;
     width: 70%;
 }
 
@@ -87,7 +87,7 @@ html, body {
 .title-bar-detaills-container{
     background-color: var(--real-medium-bl);
     height: 100%;
-    width: 75px;
+    width: 83px;
     float: left;
     border-top-left-radius: 3px;
 }
@@ -103,9 +103,13 @@ html, body {
 }
 
 .detaills-op-username{
-    color: var(--white);
+    color: rgb(150, 150, 150);
+    font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     font-weight: 100;
     text-align: center;
     margin-top: 4px;
+    word-wrap: break-word
 }
+
+

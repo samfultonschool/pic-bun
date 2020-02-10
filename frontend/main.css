@@ -1,7 +1,7 @@
 :root {
     --dark-blue: #171f24;
     --medium-blue: #2e393f;
-    --real-medium-bl: #333;
+    --real-medium-bl: rgb(32, 42, 48);
     /*     
     --dark-blue: #29343a;
     --medium-blue: #3a4951; */

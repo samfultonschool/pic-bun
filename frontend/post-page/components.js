@@ -1,3 +1,10 @@
+const createPostContainer = ()=>{
+    const postContainer = document.createElement('div');
+    postContainer.classList.add('post-container');
+    return postContainer;
+}
+
+
 const createPostTitleBar = ({title, username})=>{
     const postTitleBar = document.createElement('div');
     postTitleBar.classList.add('post-title-bar');
@@ -26,4 +33,29 @@ const createPostTitleBarDetails = ({username, viewcount})=>{
     details.append(opProfPic)
     details.append(opUsername);
     return details;
+}
+
+
+
+
+
+const createPostMessageBar = ()=>{
+    const messageBar = document.createElement('div');
+    messageBar.classList.add('post-message-bar');
+
+    return messageBar
+}
+
+
+
+const createMediaContainer = ({src})=>{
+    const postMediaContainer = document.createElement('div');
+    postMediaContainer.classList.add('post-media-container');
+    
+    const postSingleMedia = document.createElement('img');
+    postSingleMedia.src = src;
+    postSingleMedia.classList.add('post-single-media');
+
+    postMediaContainer.append(postSingleMedia);
+    return postMediaContainer;
 }
