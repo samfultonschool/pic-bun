@@ -1,7 +1,7 @@
 const createSingleMediaPostElement = async (src)=>{
     const mainContent = document.querySelector('div.main-content');
     const postContainer = document.createElement('div')
-    const postTitleBar = document.createElement('div');
+    const postTitleBar = createPostTitleBar({title: 'Blue fox chip land gopher jugging yes three meat olive doorway feces picbun', username: 'testUser08'});
     const postInteractionBar = document.createElement('div');
     const postMessageBar = document.createElement('div');
     const postSideBar = document.createElement('div');
@@ -10,7 +10,7 @@ const createSingleMediaPostElement = async (src)=>{
     // const postFoot = document.createElement('div');
 
     postContainer.classList.add('post-container');
-    postTitleBar.classList.add('post-title-bar');
+
     postInteractionBar.classList.add('post-interaction-bar')
     postMessageBar.classList.add('post-message-bar');
     postMediaContainer.classList.add('post-media-container');
@@ -25,7 +25,7 @@ const createSingleMediaPostElement = async (src)=>{
     postContainer.style.width = postSingleMedia.width + 180  + 'px';
     mainContent.append(postContainer);
 
-    await sleep(10);
+    await sleep(100);
     postContainer.style.width = postSingleMedia.width + 180  + 'px';
 
     // postFoot.style.width = postMedia.width + 'px';
@@ -37,6 +37,7 @@ const createSingleMediaPostElement = async (src)=>{
 
 // createSingleMediaPostElement('https://i.imgur.com/uqivNJD.jpg');
 
-createSingleMediaPostElement('https://i.imgur.com/OOEG3w9.jpg');
+createSingleMediaPostElement('../../img/test.jpg');
+
 
 

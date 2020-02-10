@@ -2,7 +2,6 @@ html, body {
     background-color: var(--dark-blue);
     height: 100%;
     width: 100%;
-    ;
     margin: 0px;
     padding: 0px;
 }
@@ -17,6 +16,8 @@ html, body {
 
 /* post grid */
 .post-container {
+    max-width: 85%;
+    min-width: 800px;
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: 83px 1.7fr;
@@ -45,6 +46,7 @@ html, body {
     vertical-align: top;
     display: inline-block;
     margin: 0 auto;
+
 }
 
 .post-message-bar {
@@ -66,4 +68,44 @@ html, body {
 
 .post-single-media {
     max-width: 100%;
+}
+
+
+
+.post-title{
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    overflow-wrap: break-word;
+    text-align: left;
+    padding-left: 90px;
+    width: 70%;
+}
+
+
+.title-bar-detaills-container{
+    background-color: var(--real-medium-bl);
+    height: 100%;
+    width: 75px;
+    float: left;
+    border-top-left-radius: 3px;
+}
+
+.detaills-op-prof-pic{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px
+}
+
+.detaills-op-username{
+    color: var(--white);
+    font-size: 10px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 4px;
 }

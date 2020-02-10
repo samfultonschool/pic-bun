@@ -1,12 +1,21 @@
 :root {
     --dark-blue: #171f24;
     --medium-blue: #2e393f;
+    --real-medium-bl: #333;
     /*     
     --dark-blue: #29343a;
     --medium-blue: #3a4951; */
     --bright-blue: #007bff;
     --white: #fff;
+    font-family: 'Poppins', sans-serif;
 }
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  }
 
 .top-bar {
     background-color: var(--medium-blue);
