@@ -1,6 +1,6 @@
 const createSingleMediaPostElement = async (src)=>{
     const postContainer = createPostContainer();
-    const postTitleBar = createPostTitleBar({title: 'Blue fox chip land gopher jugging yes three meat olive doorway feces picbun', username: 'ChloBot00'});
+    const postTitleBar = createPostTitleBar({title: 'Blue fox chip land gopher jugging yes three meat olive doorway wind picbun', username: 'ChloBot00'});
     const postMessageBar = createPostMessageBar();
     const postMediaContainer = createMediaContainer({src});
     
