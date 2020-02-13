@@ -47,9 +47,13 @@ const createPostMessageBar = ()=>{
     const messageBarHeadTitle = document.createElement('div');
     messageBarHeadTitle.classList.add('post-message-bar-head-title');
     messageBarHeadTitle.textContent = 'Live Chat';
+    const messageContainer = document.createElement('div');
+    messageContainer.classList.add('message-container');
+    
 
     messageBarHead.append(messageBarHeadTitle)
     messageBar.append(messageBarHead);
+    messageBar.append(messageContainer);
     return messageBar
 }
 

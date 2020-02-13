@@ -73,6 +73,13 @@ html, body {
     padding-top: 2px;
 }
 
+.message-container{
+    background-color: #273035;
+    height: 83%;
+    width: 100%;
+}
+
+
 /* end of post grid */
 
 
